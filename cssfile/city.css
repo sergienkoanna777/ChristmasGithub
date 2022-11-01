@@ -1,0 +1,180 @@
+
+.bg-animation {
+    animation: bg-animation 25s ease-in-out infinite;
+    padding: 160px 20px;
+    text-align: center;
+    background-image: url(/image/light.jpg); /* Фоновая картинка */
+    background-repeat: no-repeat;
+    color: #df0d0d;
+    font-size: 34px;
+    font-family: 'Slabo 27px', serif;
+    
+}
+
+
+@media (max-width: 620px) {
+    .bg-animation {
+        padding: 100px 20px;
+        font-size: 26px;
+        flex: 1;
+    }
+}
+@keyframes bg-animation {
+    0% {
+        background-size: 120%;
+        background-position: 50% 50%
+    }
+    20% {
+        background-size: 150%;
+        background-position: 0 50%;
+    }    
+    40% {
+        background-size: 110%;
+        background-position: 20% 80%;
+    }
+    60% {
+        background-size: 160%;
+        background-position: 60% 10%;
+    }
+    80% {
+        background-size: 120%;
+        background-position: 40% 70%;
+    }    
+    100% {
+        background-size: 120%;
+        background-position: 50% 50%
+    }
+}
+
+.pouring {
+    font-size: 50px;
+    padding: 20px;
+    line-height: 70px;
+    font-weight: 900;
+    position: relative;
+    background: white;
+    overflow: hidden;
+    text-align: center;
+}
+.pouring:before {
+    content: '';
+    position: absolute;
+    filter: blur(10px);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: screen;
+    background-image: repeating-linear-gradient(-45deg, transparent, transparent 1em, #BFE2FF 1em, #337AB7 50%), repeating-linear-gradient(45deg, #337AB7, #337AB7 1em, #FFF 1em, #BFE2FF 50%);
+    background-size: 3em 3em, 2em 2em;
+    animation-name: ani;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes ani {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 0;
+    }
+}
+@media (max-width:690px) {    
+    .pouring {
+        font-size: 50px;
+    }    
+}
+.all{
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.colomn{
+    flex-direction: column;
+}
+.new{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    margin-top: 50px;
+    margin-left:50px;
+    background-color:blue;
+    padding:15px;
+    font-size:20px;
+    border-radius:50px;
+    border:none;
+    text-transform:uppercase;
+    cursor: help;
+}
+.btn:hover{
+    background-color:chartreuse;
+}
+.text {
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    color: #337AB7;
+}
+
+.back{
+    font-size: 20px;
+    align-self: flex-end;
+    padding: 30px;
+}
+.back:hover{
+    color: red;
+}
+
+@media all and (max-width: 500px){
+.myvideo{
+    width: 100%;
+    height: 100%;
+}
+
+.pouring{
+    font-size: 30px;
+}
+.text{
+    font-size: 15px;
+}
+.btn{
+    padding: 5px;
+}
+.back{
+    font-size: 15px;
+}
+.all{
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+}
+
+
+@media all and (max-width: 800px){
+    .myvideo{
+        width: 100%;
+        height: 100%;
+    }
+    .all{
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+    .pouring{
+        font-size: 30px;
+    }
+    .text{
+        font-size: 15px;
+    }
+    .btn{
+        padding: 5px;
+    }
+    .back{
+        font-size: 15px;
+    }
+    }
