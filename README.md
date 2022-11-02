@@ -2,7 +2,7 @@
   <h1>Christmas vacation in Quebec</h1>
 </div>
 
-
+<img src="./christmasVacation.jpg" alt="Image" width="auto">
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
