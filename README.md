@@ -19,9 +19,9 @@ If you have not yet decided where to celebrate Christmas, then this web site wil
 [HTML5](https://www.w3schools.com/html/) / [CSS3](https://www.w3schools.com/css/)/ [JavaScript](https://www.w3schools.com/js/)
 <!-- USAGE EXAMPLES -->
 ## Usage
-A simple site where you can find out about the best places to spend your Christmas holidays in Quebec.
-You can find out more information through links to official websites
-Application is responsive for mobile devices.
+A simple site where you can find out about the best places where to spend your Christmas holidays in Quebec.
+You can find out more information through links to official websites.
+Application features responsive design for mobile devices.
 
 
 Project Link: https://github.com/sergienkoanna777/ChristmasGithub
