@@ -16,7 +16,7 @@ If you have not yet decided where to celebrate Christmas, then this web site wil
 
 ## Built with 
 
-[HTML5](https://www.w3schools.com/html/) / [CSS3](https://www.w3schools.com/css/)/ [JavaScript](https://www.w3schools.com/js/)
+[HTML5](https://www.w3schools.com/html/) / [CSS3](https://www.w3schools.com/css/)
 <!-- USAGE EXAMPLES -->
 ## Usage
 A simple site where you can find out about the best places where to spend your Christmas holidays in Quebec.
