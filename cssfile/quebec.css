@@ -11,7 +11,6 @@
   padding: 20px 40px;
 }
 
-
 html,
 body {
   height: 100%;
@@ -24,6 +23,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .container {
   align-items: center;
   display: flex;
@@ -32,20 +32,24 @@ body {
   height: 100%;
   width: 10
 }
+
 .link{
   display: flex;
   flex-direction: column;
   padding: 20px;
 }
+
 .push{
   font-size: 20px;
   justify-content: center;
   text-decoration: none;
   text-transform: uppercase;
 }
+
 .push:hover{
   color: red;
 }
+
 .text{
   color: rgb(6, 6, 100);
   font-family: 'Merriweather', serif;
@@ -55,54 +59,49 @@ body {
   font-size: 15px;
   align-self: flex-end;
 }
+
 .back:hover{
   color: red;
 }
+
 h1{
   font-size: 40px;
 }
 
-
 @media all and (max-width: 500px){
- 
-      .myvideo{
-        width: 100%;
-        height: 100%;
+  .myvideo{
+    width: 100%;
+    height: 100%;
+  }
+  body{
+    background-color: #c8e5e6 ;
+  }
+  h1{
+    font-size: 30px;
     }
-      body{
-          background-color: #c8e5e6 ;
+  .push{
+    font-size: 15px;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    }
+}
+@media all and (max-width: 800px){
+  .myvideo{
+    width: 100%;
+    height: 100%;
+    }
+    h1{
+      font-size: 30px;
       }
-      h1{
-        font-size: 30px;
-      }
-      .push{
-        font-size: 15px;
-
-      }
-      
-      .container{
-          display: flex;
-          flex-direction: column;
-          justify-content: flex-start;
-          width: 100%;
-      }
-      }
-
-      @media all and (max-width: 800px){
-              .myvideo{
-                  width: 100%;
-                  height: 100%;
-              }
-              h1{
-                font-size: 30px;
-              }
-              
-              
-              .container{
-                  display: flex;
-                  flex-direction: column;
-                  justify-content: flex-start;
-                  width: 100%;
-              }
-              }
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+  }
+}
 

@@ -8,7 +8,6 @@
     color: #df0d0d;
     font-size: 34px;
     font-family: 'Slabo 27px', serif;
-    
 }
 
 
@@ -130,29 +129,27 @@
 }
 
 @media all and (max-width: 500px){
-.myvideo{
-    width: 100%;
-    height: 100%;
-}
-
-.pouring{
-    font-size: 30px;
-}
-.text{
-    font-size: 15px;
-}
-.btn{
-    padding: 5px;
-}
-.back{
-    font-size: 15px;
-}
-.all{
-    flex-direction: column;
-    flex-wrap: wrap;
-
-}
-}
+    .myvideo{
+        width: 100%;
+        height: 100%;
+    }
+    .pouring{
+        font-size: 30px;
+    }
+    .text{
+        font-size: 15px;
+    }
+    .btn{
+        padding: 5px;
+    }
+    .back{
+        font-size: 15px;
+    }
+    .all{
+        flex-direction: column;
+        flex-wrap: wrap;
+        }
+    }
 
 
 @media all and (max-width: 800px){
@@ -177,4 +174,4 @@
     .back{
         font-size: 15px;
     }
-    }
+}
